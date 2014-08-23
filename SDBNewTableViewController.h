@@ -1,5 +1,5 @@
 //
-//  SDBViewController.h
+//  SDBNewTableViewController.h
 //  TableViewChallenge2
 //
 //  Created by Sebastien de Bandt on 23/08/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDBViewController : UIViewController
+@interface SDBNewTableViewController : UITableViewController
 
 @end

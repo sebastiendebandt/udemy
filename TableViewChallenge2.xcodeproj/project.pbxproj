@@ -14,13 +14,13 @@
 		9685FD5019A8852B00608722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9685FD4F19A8852B00608722 /* main.m */; };
 		9685FD5419A8852B00608722 /* SDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9685FD5319A8852B00608722 /* SDBAppDelegate.m */; };
 		9685FD5719A8852B00608722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9685FD5519A8852B00608722 /* Main.storyboard */; };
-		9685FD5A19A8852B00608722 /* SDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9685FD5919A8852B00608722 /* SDBViewController.m */; };
 		9685FD5C19A8852B00608722 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9685FD5B19A8852B00608722 /* Images.xcassets */; };
 		9685FD6319A8852C00608722 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9685FD6219A8852C00608722 /* XCTest.framework */; };
 		9685FD6419A8852C00608722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9685FD4319A8852B00608722 /* Foundation.framework */; };
 		9685FD6519A8852C00608722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9685FD4719A8852B00608722 /* UIKit.framework */; };
 		9685FD6D19A8852C00608722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9685FD6B19A8852C00608722 /* InfoPlist.strings */; };
 		9685FD6F19A8852C00608722 /* TableViewChallenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9685FD6E19A8852C00608722 /* TableViewChallenge2Tests.m */; };
+		9685FD7A19A8877500608722 /* SDBNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9685FD7919A8877500608722 /* SDBNewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		9685FD5219A8852B00608722 /* SDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDBAppDelegate.h; sourceTree = "<group>"; };
 		9685FD5319A8852B00608722 /* SDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBAppDelegate.m; sourceTree = "<group>"; };
 		9685FD5619A8852B00608722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9685FD5819A8852B00608722 /* SDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDBViewController.h; sourceTree = "<group>"; };
-		9685FD5919A8852B00608722 /* SDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBViewController.m; sourceTree = "<group>"; };
 		9685FD5B19A8852B00608722 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9685FD6119A8852C00608722 /* TableViewChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9685FD6219A8852C00608722 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9685FD6A19A8852C00608722 /* TableViewChallenge2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewChallenge2Tests-Info.plist"; sourceTree = "<group>"; };
 		9685FD6C19A8852C00608722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9685FD6E19A8852C00608722 /* TableViewChallenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewChallenge2Tests.m; sourceTree = "<group>"; };
+		9685FD7819A8877500608722 /* SDBNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBNewTableViewController.h; sourceTree = "<group>"; };
+		9685FD7919A8877500608722 /* SDBNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBNewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,8 @@
 		9685FD3719A8852B00608722 = {
 			isa = PBXGroup;
 			children = (
+				9685FD7819A8877500608722 /* SDBNewTableViewController.h */,
+				9685FD7919A8877500608722 /* SDBNewTableViewController.m */,
 				9685FD4919A8852B00608722 /* TableViewChallenge2 */,
 				9685FD6819A8852C00608722 /* TableViewChallenge2Tests */,
 				9685FD4219A8852B00608722 /* Frameworks */,
@@ -115,8 +117,6 @@
 				9685FD5219A8852B00608722 /* SDBAppDelegate.h */,
 				9685FD5319A8852B00608722 /* SDBAppDelegate.m */,
 				9685FD5519A8852B00608722 /* Main.storyboard */,
-				9685FD5819A8852B00608722 /* SDBViewController.h */,
-				9685FD5919A8852B00608722 /* SDBViewController.m */,
 				9685FD5B19A8852B00608722 /* Images.xcassets */,
 				9685FD4A19A8852B00608722 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9685FD5419A8852B00608722 /* SDBAppDelegate.m in Sources */,
+				9685FD7A19A8877500608722 /* SDBNewTableViewController.m in Sources */,
 				9685FD5019A8852B00608722 /* main.m in Sources */,
-				9685FD5A19A8852B00608722 /* SDBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
